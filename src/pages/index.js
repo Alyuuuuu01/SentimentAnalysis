@@ -29,7 +29,7 @@ const handleLoadCSV = () => {
 
     setClicked(true);
 
-    Papa.parse("https://raw.githubusercontent.com/Zeraphim/jeepney-phaseout-dataset/main/jeepney_phaseout_tweets.csv", {
+    Papa.parse("https://raw.githubusercontent.com/Alyuuuuu01/SentimentAnalysis/main/src/dataset/jeepney_phaseout_tweets.csv", {
       download: true,
       header: true,
       skipEmptyLines: true,
@@ -49,7 +49,7 @@ const handleLoadCSV = () => {
     })
   }
   const handleFile = (event) => {
-    Papa.parse("https://raw.githubusercontent.com/Zeraphim/jeepney-phaseout-dataset/main/jeepney_phaseout_tweets.csv", {
+    Papa.parse("https://raw.githubusercontent.com/Alyuuuuu01/SentimentAnalysis/main/src/dataset/jeepney_phaseout_tweets.csv", {
       download: true,
       header: true,
       skipEmptyLines: true,
@@ -98,7 +98,7 @@ const handleLoadCSV = () => {
                     <a href="#results" class="block text-gray-500 hover:text-gray-300 py-2 md:mx-2">Results</a>
                   </li>
                   <li>
-                    <a href="https://colab.research.google.com/drive/1e8v1zvAJhCI6DOKkGFJyrpkb-wOhAWIh?usp=sharing" target="_blank" class="block text-gray-500 hover:text-gray-300 py-2 md:mx-2">Code</a>
+                    <a href="https://colab.research.google.com/drive/1kkkXeQFT5PZhXfxeMZ00_u3O_K23zYt5?usp=sharing" target="_blank" class="block text-gray-500 hover:text-gray-300 py-2 md:mx-2">Code</a>
                   </li>
                 </ul>
                 <div class="flex my-3 lg:my-0">
